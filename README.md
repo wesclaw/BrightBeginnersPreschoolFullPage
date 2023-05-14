@@ -1,2 +1,3 @@
 # BrightBeginnersPreschoolFullPage
+My full length project webiste for Bright Beginners Preschool. This project took 7 days with 9 hours per day. The final website seems a little slow. Possibly the images...
 Live-Site: https://wesclaw.github.io/BrightBeginnersPreschoolFullPage/
