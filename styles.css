@@ -21,6 +21,47 @@ nav li{
   font-weight: bold;
 }
 
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 229, 229);
+  transition: .75s;
+  visibility: .75s;
+  z-index: 99999;
+}
+
+.loader-hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after{
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 12px solid rgba(181, 181, 189, 0.493);
+  border-top-color: #8aac3fc4;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+  
+  
+}
+
+@keyframes loading{
+  from{
+    transform: rotate(0turn);
+  }
+  to{
+    transform: rotate(1turn);
+  }
+}
+
 nav li a:hover{
   color: #89AC3F !important;
 }
